@@ -8,10 +8,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React/Electron</h2>
+          <h2>Welcome to wTime_ application</h2>
         </div>
         <p className="App-intro">
-          Hello Electron!
+          This application will be now under development.<br/>
+          It will help measure your time at work and organize it properly.
         </p>
       </div>
     );
