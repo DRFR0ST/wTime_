@@ -1,0 +1,7 @@
+/*******************************
+     User Global Variables
+*******************************/
+@import '../../../../styles/src/google-material-colors.less';
+
+@primaryColor: @material-indigo-500;
+@secondaryColor: @material-red-500;

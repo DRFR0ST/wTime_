@@ -17,12 +17,14 @@
   "homepage": "./",
   "main": "src/electron-starter.js",
   "scripts": {
-    "start": "nf start -p 3000",
-    "build": "react-scripts build",
+    "start": "npm run build-semantic && npm run build-styles && nf start -p 3000",
+    "build": "npm run build-semantic && npm run build-styles && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-start": "node src/electron-wait-react",
-    "react-start": "react-scripts start"
+    "react-start": "react-scripts start",
+    "build-semantic": "cd src/semantic/ && gulp build",
+    "build-styles": "cd src/styles/ && gulp build"
   }
 }
