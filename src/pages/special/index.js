@@ -1,0 +1,1 @@
+export {default as WrongUrl} from './wrongurl.js';
